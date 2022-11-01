@@ -1,23 +1,31 @@
-import logo from './logo.svg';
 import './App.css';
+import {Home} from './home/home';
+import {About} from './about/about';
+import {Skills} from './skills/skills';
+import {Career} from './career/career';
+import {Projects} from './projects/projects';
+import {WhyMe} from './whyme/whyme';
+import {Contact} from './contact/contact';
+import React from 'react';
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+        <Home/>
+        <div className="App-body">
+            <Skills/>
+            <About/>
+            <Career/>
+            <Projects/>
+            <WhyMe/>
+            <Contact/>
+        </div>
+        <footer className="App-footer">
+            <div className="copyRight">
+                &copy; Guirado Léo | 2022
+            </div>
+        </footer>
     </div>
   );
 }
