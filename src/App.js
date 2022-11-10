@@ -5,6 +5,7 @@ import {Skills} from './skills/skills';
 import {Career} from './career/career';
 import {Projects} from './projects/projects';
 import {WhyMe} from './whyme/whyme';
+import {References} from './references/references';
 import {Contact} from './contact/contact';
 import React from 'react';
 
@@ -19,12 +20,13 @@ function App() {
             <Career/>
             <Projects/>
             <WhyMe/>
-            <Contact/>
+            <References/>
         </div>
         <footer className="App-footer">
-            <div className="copyRight">
-                &copy; Guirado Léo | 2022
-            </div>
+          <Contact/>
+          <div className="copyRight">
+              &copy; Guirado Léo | 2022
+          </div>
         </footer>
     </div>
   );

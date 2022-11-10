@@ -3,7 +3,8 @@
   color: #E0D9F6;
   background-color: #21006F;
 }
-
+/*-------------------------*/
+/*      Header (home)      */
 .App-header {
   color:white;
   background-color:white;
@@ -60,15 +61,95 @@
   border-radius: 10%;
   color: ivory;
 }
-
+/*    End Header (home)    */
+/*-------------------------*/
+/*      Body  (about)      */
 .about-row {
-  min-height: 100vh;
+  min-height: 100vh; 
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
 }
-
+/*    End Body  (about)    */
+/*-------------------------*/
+/*      Body (skills)      */
+.skills-row {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+/*    End Body (skills)    */
+/*--------------------------/
+/*      Body (career)      */
+.career-row {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-around;
+}
+.career-column {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+/*    End Body (career)    */
+/*-------------------------*/
+/*     Body (projects)     */
+.projects {
+  min-height: 100vh;
+}
+.projects-carousel-column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+.projects-carousel-row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+/*   End Body (projects)   */
+/*-------------------------*/
+/*      Body (Why Me)      */
+.whyme {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+/*    End Body (Why Me)    */
+/*-------------------------*/
+/*    Body (References)    */
+.references {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+/*  End Body (References)  */
+/*-------------------------*/
+/*    Footer  (Contact)    */
+.App-footer {
+  min-height: 25vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+.copyRight {
+  background-color: black;
+  align-items: flex-end;
+}
+/*  End Footer  (Contact)  */
 .card {
   box-shadow: 0 5px 10px 0 
   rgba(0, 0, 0, 0.2);
@@ -115,18 +196,7 @@ img {
 }
 
 .App-body {
-  min-height: 50vh;
   background-color: #586AE2;
-}
-
-.App-footer {
-  min-height: 25vh;
-
-}
-
-.copyRight {
-  background-color: black;
-  align-items: flex-end;
 }
 
 @media screen and (max-width:500px) {

@@ -10,23 +10,32 @@ export class Career extends React.Component{
         return (
             <div>
                 <div>Expériences professionnelle</div>
-                <div className="flex-row">
-                    <div className="card">
-                        <h3>Acensi</h3>
-                        <img src={Acensi} className="Acensi" alt="Acensi"/>
+                <div className="career-row">
+                    <div className="career-column">
+                        <div className="card">
+                            <h3>Acensi</h3>
+                            <img src={Acensi} className="Acensi" alt="Acensi"/>
+                        </div>
+                        <div className="card">
+                            <h3>Hotellerie</h3>
+                            <img src={Hotellerie} className="Hotellerie" alt="Hotellerie"/>
+                        </div>
+                        <div className="card">
+                            <h3>Chocolaterie</h3>
+                            <img src={choco} className="Choco" alt="Chocolaterie"/>
+                        </div>
+                        <div className="card">
+                            <h3>Pâtisserie</h3>
+                            <img src={patiss} className="Patiss" alt="Pâtisserie"/>
+                        </div>
                     </div>
+                    <div className="career-column">
                     <div className="card">
-                        <h3>Hotellerie</h3>
-                        <img src={Hotellerie} className="Hotellerie" alt="Hotellerie"/>
+                            <h3>Pâtisserie</h3>
+                            <img src={patiss} className="Patiss" alt="Pâtisserie"/>
+                        </div>
                     </div>
-                    <div className="card">
-                        <h3>Chocolaterie</h3>
-                        <img src={choco} className="Choco" alt="Chocolaterie"/>
-                    </div>
-                    <div className="card">
-                        <h3>Pâtisserie</h3>
-                        <img src={patiss} className="Patiss" alt="Pâtisserie"/>
-                    </div>
+                    
                 </div>
             </div>
         )
